@@ -1,1 +1,368 @@
+body {
+	font-family: montserrat;
+	font-weight: bold;
+}
+h1 {
+	font-weight: bold;
+}
+#loading {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff url("/images/loading.gif") no-repeat center;
+	z-index: 999;
+	transform: all 5s ease-in-out;
+}
+#containerone {
+	background: url("/images/bgimage.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.tagnav {
+	padding: 3% 15%;
+	font-size: 20px;
+}
+.tagnav a {
+	color: #fff;
+}
+.tagnav a:hover {
+	color: rgb(15, 50, 206);
+}
+.contentone {
+	padding: 15% 25% 15% 15%;
+}
+.headp {
+	font-size: 135%;
+}
+#containertwo {
+	background-color: #f3f3f3;
+	font-weight: bold;
+}
+.contenttwo {
+	text-align: center;
+	padding: 3% 5% 3% 2%;
+}
+.cardstyle {
+	padding: 3% 3%;
+}
+.carditem {
+	margin: 20px;
+	border-radius: 15px;
+}
+#containerthree {
+	background-color: rgb(180, 174, 174);
+	text-align: center;
+	padding: 3% 3%;
+}
+#containerfour {
+	padding: 7% 0;
+	text-align: center;
+}
+.contentfour {
+	padding: 3%;
+}
+.griditem1 {
+	text-align: left;
+	padding: 5%;
+}
+button {
+	color: rgb(17, 16, 16);
+	font-family: "Times New Roman", Times, serif;
+	margin: 20px;
+}
+hr {
+	top: 20px;
+	width: 25%;
+	border: none;
+	height: 5px;
+	background: red;
+	margin-bottom: 50px;
+}
+.griditem2 {
+	padding: 3% 0%;
+}
+.griditem2 > img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#containerfive {
+	background-color: #1d4b5b;
+	padding: 7% 0;
+}
+.fiveitem1 {
+	color: #fff;
+	text-align: left;
+	padding: 5%;
+}
+.fiveitem2 {
+	padding: 3% 0;
+}
+.fiveitem2 > img {
+	border-radius: 3%;
+	box-shadow: 0 4px 8px 0 rgb(255 255 255), 0 5px 19px 0 rgb(241 241 241 / 19%);
+}
+#containersix {
+	background-color: #5036ec;
+	padding: 7% 0;
+}
+#containerseven {
+	padding: 10% 20%;
+}
+.paraone > hr {
+	top: 20px;
+	width: 30%;
+	border: none;
+	height: 5px;
+	background: #336dda;
+	margin-bottom: 50px;
+}
+.paratwo > hr {
+	top: 20px;
+	width: 43%;
+	border: none;
+	height: 5px;
+	background: #f1bb08;
+	margin-bottom: 50px;
+}
+.parathree > hr {
+	top: 20px;
+	width: 21%;
+	border: none;
+	height: 5px;
+	background: #2c240b;
+	margin-bottom: 50px;
+}
+#containereight {
+	padding: 0 10% 5% 10%;
+}
+.eightitem {
+	padding: 3%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.eightitem1 {
+	margin: 2px 5px 3px 5px;
+	flex-basis: 30%;
+}
+.eightitem2 {
+	flex-basis: 70%;
+}
+.cardpad {
+	padding: 5% 0;
+}
+#containernine {
+	background-color: #194a89;
+}
+.nineitem1 {
+	color: #fff;
+	text-align: left;
+	padding: 5%;
+}
+.nineitem1 > hr {
+	top: 20px;
+	width: 30%;
+	border: none;
+	height: 5px;
+	background: #336dda;
+	margin-bottom: 50px;
+}
+.nineitem2 {
+	padding: 5% 0 3%;
+}
+.nineitem2 > img {
+	border-radius: 3%;
+	box-shadow: 0 4px 8px 0 rgb(255 255 255), 0 5px 19px 0 rgb(241 241 241 / 19%);
+}
+#containerten {
+	background-color: #191923;
+	color: #fff;
+	padding: 7%;
+}
+.tenitem1 {
+	padding: 3%;
+}
+.tenitem1 > h1 {
+	font-size: 135%;
+}
+.tenitem1 > p {
+	font-size: 90%;
+}
+.cardone {
+	padding: 5% 0;
+}
+.cardone > h4 {
+	padding: 5% 0 0;
+	font-size: 85%;
+}
+.cardone > h5 {
+	padding: 0 0 3%;
+	font-size: 75%;
+}
+.cardpos {
+	padding: 10% 0 5%;
+	color: #000;
+}
+.imagepos {
+	position: absolute;
+	top: -15%;
+	left: 10%;
+}
+.cardcon {
+	padding: 10%;
+}
+.cardconlast {
+	background-color: #000;
+	color: #fff;
+	padding: 25%;
+	text-align: center;
+}
+#containereleven {
+	background-color: #f0f0f0;
+	padding: 5% 3% 5% 7%;
+}
+.cardimg {
+	position: relative;
+	top: 5%;
+	left: 5%;
+}
+.great {
+	background-color: #1f74fb;
+	padding: 2%;
+	color: #fff;
+}
+.stream {
+	background-color: #000;
+	padding: 2%;
+	color: #fff;
+}
+.flexible {
+	background-color: #fb891f;
+	padding: 2%;
+	color: #fff;
+}
+#containertwelve {
+	padding: 10% 5% 10% 5%;
+	background-image: url("/images/discussion.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.twelvecard {
+	padding: 5% 0;
+}
+.content13 {
+	text-align: center;
+	padding: 10% 10% 0;
+}
+.content132 {
+	padding: 6%;
+	text-align: right;
+}
+.item {
+	padding: 2%;
+	font-size: 175%;
+}
+.item i {
+	font-size: 200%;
+	position: absolute;
+	left: 20px;
+}
+.item p {
+	text-align: right;
+}
+.button13 {
+	text-align: center;
+}
+#container14 {
+	background-color: #f9f9f9;
+}
 
+.topnav {
+	overflow: hidden;
+}
+
+.nav14 {
+	padding: 0 25%;
+}
+.nav14 a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border-bottom: 3px solid transparent;
+}
+.nav14 a:hover {
+	color: orange;
+	border-bottom: 3px solid orange;
+}
+.nav14 a.activenow {
+	color: orange;
+	border-bottom: 3px solid orange;
+}
+
+.deckdesign {
+	padding: 5% 25%;
+	text-align: center;
+}
+.deckdesign > h1 {
+	font-family: "Times New Roman", Times, serif;
+}
+.carddesign {
+	padding: 3%;
+}
+#industries {
+	display: none;
+}
+
+.deckdesign:target {
+	display: block !important;
+	padding: 5% 25%;
+	text-align: center;
+}
+#container15 {
+	padding: 10% 5% 10% 5%;
+	background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+		url("/images/discussion.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #000;
+}
+
+#foot {
+	background-color: #000;
+	padding: 10% 3% 3%;
+	color: #fff;
+}
+.copyright {
+	position: relative;
+	left: 1%;
+	padding: 3% 0;
+}
+.foothr {
+	top: 20px;
+	border: none;
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	margin-bottom: 25px;
+}
+
+.carousel-style {
+	margin: auto;
+}
+.carousel-control-next,
+.carousel-control-prev {
+	filter: invert(100%);
+}
+
+.contact {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
